@@ -37,6 +37,7 @@ public class Bankomat_Beispiel {
             if (fEingabe == 1){
                 System.out.print("Wieviel wollen sie einzahlen?");
                 fEinzahlung = scanner.nextFloat();
+                System.out.println("Sie haben " + fEinzahlung + "€ eingezahlt \n");
 
                 fKontostand = fKontostand + fEinzahlung;
             }
@@ -44,18 +45,19 @@ public class Bankomat_Beispiel {
             else if (fEingabe == 2){
                 System.out.println("Wiebviel wollen sie abheben");
                 fAbheben = scanner.nextFloat();
+                System.out.println("Sie haben " + fAbheben + "€ abgehoben \n");
 
                 fKontostand = fKontostand - fAbheben;
 
             }
 
             else if (fEingabe == 3){
-                System.out.println("Ihr Konto betrag lautet" + fKontostand);
+                System.out.println("Ihr Kontostand lautet " + fKontostand + "€ \n");
 
             }
 
             else if (fEingabe == 4){
-                System.out.println("Wollen sie beenden? Wenn nein drücken sie N wenn ja drücken sie J");
+                System.out.println("Wollen sie beenden? Wenn nein drücken sie n wenn ja drücken sie j");
                 cAbbruch = scanner.next().charAt(0);
             }
 
