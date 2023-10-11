@@ -71,3 +71,4 @@ public class Bankomat_Beispiel {
 
     }
 }
+//frtig
