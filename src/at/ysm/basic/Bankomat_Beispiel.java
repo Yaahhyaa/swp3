@@ -60,9 +60,10 @@ public class Bankomat_Beispiel {
             }
 
 
-        }   while(cAbbruch != 'J'); {
-            System.out.println("Programm beendet");
+        } while(cAbbruch != 'J');
 
-        };
+        System.out.println("Programm beendet");
+
+
     }
 }
