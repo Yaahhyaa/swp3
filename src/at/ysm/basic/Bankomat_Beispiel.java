@@ -67,8 +67,5 @@ public class Bankomat_Beispiel {
         System.out.println("Programm beendet\n");
 
 
-
-
     }
 }
-//frtig
