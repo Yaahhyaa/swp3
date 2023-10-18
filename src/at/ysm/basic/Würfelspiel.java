@@ -15,7 +15,6 @@ public class Würfelspiel {
         Scanner scanner = new Scanner(System.in);
 
 
-
     for (int i = 0; i < 6; i++) {
         int randomPlayer = random.nextInt(6) + 1;
         int randomComputer = random.nextInt(6) + 1;
