@@ -1,6 +1,7 @@
 package at.ysm.basic;
 
 import java.util.Random;
+import java.util.Scanner;
 
 public class Würfelspiel {
     public static void main(String[] args) {
@@ -11,7 +12,7 @@ public class Würfelspiel {
         int winsOfPlayer= 0;
         int winsOfComputer = 0;
         int amountOfDraws = 0;
-
+        Scanner scanner = new Scanner(System.in);
 
 
 
@@ -34,7 +35,10 @@ public class Würfelspiel {
     System.out.println("\n");
     System.out.println(" Computer gesamt wins:" + winsOfComputer + " \n " + "Player gesamt wins:" + winsOfPlayer + "\n " + "insgesammte Draws:" + amountOfDraws);
 
+        System.out.println(" Wollen sie das Spiel abbrechen? " + "Mit j jabbrechen");
+    cAbbruch = scanner.next().charAt(0);
     }while (cAbbruch != 'j');
+
 
         System.out.println("Spiel Beendet");
 
