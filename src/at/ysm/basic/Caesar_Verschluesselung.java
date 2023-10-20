@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Caesar_Verschluesselung {
     public static void main(String[] args) {
-    String result = encrypt(1, "Hallo");
+    String result = encrypt(2, "Hallo");
         System.out.println(result);
     }
 
