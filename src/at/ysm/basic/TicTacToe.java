@@ -13,8 +13,8 @@ public class TicTacToe {
         int Player2=0;
 
         System.out.println("-----------------------");
-        System.out.println("Zeawas jetzt TicTacTou");
-        System.out.println("Gewinner bekommt eine Cola!");
+        System.out.println("Willkommen im Spiel TicTacTou");
+        System.out.println("Der Gewinner ist ... ");
         System.out.println("-----------------------");
 
         do {
