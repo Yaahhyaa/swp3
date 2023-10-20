@@ -14,8 +14,7 @@ public class Caesar_Verschluesselung {
     char[] inputData = stringToEncrypt.toCharArray();
 
         for (int i = 0; i < inputData.length; i++) {
-            int letter = inputData[i] + shift;
-            encryptedString += Character.toString(letter);
+            char letter = inputData[i];
 
             if (Character.isLetter(letter)) {
                 char base = Character.isUpperCase(letter) ? 'A' : 'a';
@@ -24,7 +23,9 @@ public class Caesar_Verschluesselung {
                     shifted += 26;
                 }
                 encryptedString += (char) (base + shifted);
-            } else {
+            }
+
+            else {
                 encryptedString += letter;
             }
             
