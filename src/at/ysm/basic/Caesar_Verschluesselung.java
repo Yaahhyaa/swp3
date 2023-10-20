@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Caesar_Verschluesselung {
     public static void main(String[] args) {
-    String result = encrypt(2, "Hallo");
+    String result = encrypt(2, "zzz");
         System.out.println(result);
     }
 
@@ -16,6 +16,17 @@ public class Caesar_Verschluesselung {
         for (int i = 0; i < inputData.length; i++) {
             int letter = inputData[i] + shift;
             encryptedString += Character.toString(letter);
+
+            if (Character.isLetter(letter)) {
+                char base = Character.isUpperCase(letter) ? 'A' : 'a';
+                int shifted = (letter - base + shift) % 26;
+                if (shifted < 0) {
+                    shifted += 26;
+                }
+                encryptedString += (char) (base + shifted);
+            } else {
+                encryptedString += letter;
+            }
             
         }
         return encryptedString;
