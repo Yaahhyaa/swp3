@@ -28,6 +28,5 @@ public class TestIT {
         System.out.println(auto.getiLeistung());
         System.out.println(auto.getsFarbe());
 
-
     }
 }
