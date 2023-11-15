@@ -8,7 +8,7 @@ public class TestIT {
         auto.setKofferraumGetraenkekiste(getraenkekiste);
 
         Flasche flasche1 = new Flasche("voues", 330, "cola");
-        //System.out.println(auto.getKofferraumGetraenkekiste().getFlasche().getHersteller());
+        //system.out.println(auto.getKofferraumGetraenkekiste().getFlasche().getHersteller());
         //auto.getKofferraumGetraenkekiste().setFlasche(flasche1);
 
         Auto auto1 = new Auto();
