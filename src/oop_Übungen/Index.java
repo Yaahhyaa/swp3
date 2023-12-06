@@ -3,27 +3,19 @@ package oop_Übungen;
 public class Index {
     public static void main(String[] args) {
         int a = 7;
-/*
 
-        car c1 = new car();
-        c1.brand = "BMW";
-        c1.fuelConsumption = 7;
-        c1.serialnumber = "B12345";
+        Car c1 = new Car();
+        c1.setBrand("BMW");
+        c1.setFuelConsumption(7);
+        c1.setSerialnumber("B12345");
 
-        car c2 = new car();
-        c2.brand = "Lmabo";
-        c2.fuelConsumption = 14;
-        c2.serialnumber = "L18769";
-*/
-        car c3 = new car(17,"Audi", "12345");
+        Car c2 = new Car();
+        c2.setBrand("Lambo");
+        c2.setFuelConsumption(14);
+        c2.setSerialnumber("L18769");
 
+        Car c3 = new Car(17, "Audi", "12345");
 
-        System.out.println(c3.serialnumber);
-
-
-
-
-
-
+        System.out.println(c3.getFuelAmount());
     }
 }
