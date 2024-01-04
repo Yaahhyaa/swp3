@@ -1,4 +1,4 @@
-package oop_Übungen;
+package oop_Übungen.Car;
 
 /*public class Car {
     private int fuelConsumption;
