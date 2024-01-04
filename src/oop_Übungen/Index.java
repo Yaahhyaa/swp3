@@ -1,4 +1,4 @@
-package oop_Übungen;
+/*package oop_Übungen;
 
 public class Index {
     public static void main(String[] args) {
@@ -19,3 +19,5 @@ public class Index {
         System.out.println(c3.getFuelAmount());
     }
 }
+
+ */

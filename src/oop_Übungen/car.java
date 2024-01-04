@@ -1,6 +1,6 @@
 package oop_Übungen;
 
-public class Car {
+/*public class Car {
     private int fuelConsumption;
     private String brand;
     private String serialnumber;
@@ -117,3 +117,5 @@ public class Car {
         return fuelAmount;
     }
 }
+
+ */
