@@ -9,7 +9,7 @@ public class Index {
         r1.Division(50,100);
 
         WissenschaftlicherRechner wsr1 = new WissenschaftlicherRechner();
-        wsr1.Cosinus(0.5);
+        wsr1.Cosinus(5);
         wsr1.Sinus(90);
 
         WurzelRechner wr1 = new WurzelRechner();
