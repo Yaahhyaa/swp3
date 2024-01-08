@@ -5,5 +5,9 @@ public class Quadrat extends Figur {
         super(sName);
     }
 
+    public void Flächeninhalt(double dSeitenlänge){
+        double dFlächeninhalt = Math.pow(dSeitenlänge, 2);
+        System.out.println("Der Flächeninhalt beträgt: " + dFlächeninhalt + " ^2");
+    }
 
 }
